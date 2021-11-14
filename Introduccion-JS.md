@@ -1,14 +1,12 @@
-# Introducción a Javascript
-
-Conceptos basicos.
+# INTRODUCCIÓN A JAVASCRIPT
 
 ## Variables
 
-Es un sistema de almacenamiento que guarda la informacion donde puedes recuperar. Se estructura de la sigiente forma: (var/const) + nombre de la bariable = "ejemplo";
+Es un sistema de almacenamiento que guarda la información donde puedes recuperar. Se estructura de la siguiente forma: (var/const) + nombre de la variable = "ejemplo";
 
-### var
+### Var
 
-la variable "var", es la funcion que asigna de un nombre de una bariable a cualquier tipo de cosa, por ejemplo tenemos (ejemplo 1 en: archivo-ejemplo.js):
+La variable `var`, es la funcion que asigna de un nombre de una variable a cualquier tipo de cosa, por ejemplo tenemos:
 
 ```javascript
     var deudas = "problemas";
@@ -17,7 +15,7 @@ la variable "var", es la funcion que asigna de un nombre de una bariable a cualq
 ```
 ### const
 
-La variable "const", es la funcion que asigna de una nombre de una bariable a constante, es decir es inamobible, por ejemplo tenemos:
+La variable `const`, es la funcion que asigna de una nombre de una bariable a constante, es decir es inamobible, por ejemplo tenemos:
 
 ```javascript
     const areaCir = "2rad";
@@ -26,11 +24,11 @@ La variable "const", es la funcion que asigna de una nombre de una bariable a co
 ```
 ## Strings
 
-s el valor en texto guardado, este es el tipo de dato que es en texto y esta delimitado entre comillas, como los ejemplos antes mostrados.
+El valor en texto guardado, este es el tipo de dato que es en texto y está delimitado entre comillas `""`, como los ejemplos antes mostrados.
 
 ## Funciones
 
-Se utiliza para agrupar codigo, e imprimir en otras lineas la  funcion, nos permite de una forma rapida, copiar el codigo y reescribirlo en otra parte. La estructura de estas son: function + nombre de la funcion(varialble) {codigo de la funcion}
+Se utiliza para agrupar código, e imprimir en otras líneas la  función, nos permite de una forma rápida, copiar el código y reescribirlo en otra parte. La estructura de estas son: `function` + nombre de la función (varialble) {codigo de la funcion}.
 
 ```javascript
     function carateristicas(modelo, marca){
@@ -40,15 +38,15 @@ Se utiliza para agrupar codigo, e imprimir en otras lineas la  funcion, nos perm
     var modelo = 2021
     var marca = "motoyota"
     presentar(modelo, marca);
-// Modelo en stock 2021, presentacion motoyota
+// Modelo en stock 2021, presentación motoyota
 ```
 ## Argumento
 
-Significa compiar un bariable dentro de una funcion, que solo cuando utilize la funcion tomara validez esa variable, de lo contrario no. esta delimitado despues del nombre de la funcion entre ().
+Significa copiar un variable dentro de una función, que solo cuando utiliza la función tomara validez esa variable, de lo contrario no. Está delimitado después del nombre de la función entre `()`, como podemos observar en el ejemplo anterior.
 
 ## Return
 
-Al asignar la palabra clave return a la funcion, devuelve un valor, que será el resultado de una función que se ejecute, por ejemplo, se puede almacenar una varriable para utilizar mas adelante.
+Al asignar la palabra clave `return` a la función, devuelve un valor, que será el resultado de una función que se ejecute, por ejemplo, se puede almacenar una variable para utilizar más adelante.
 
 ```javascript
     function areaCir (r) {
@@ -57,22 +55,24 @@ Al asignar la palabra clave return a la funcion, devuelve un valor, que será el
     var resultado = areaCir(4)
 // El área del círculo es: 50.2656
 ```
+
 ## If
 
-Esta torma como un condicional, como el en leneguaje usamos la palabra "Si", lo que hace esta funcion es comparar, para arrojar un resultado.
+`If` torna como un condicional, como él en lenguaje usamos la palabra "Si", lo que hace esta función es comparar, para arrojar un resultado.
 
 ```javascript
     function ExesoDeVelocidad (kilometros) {
-        if (kilometros > 60) {
+        if (kilometros < 60) {
             return true;
         }
             return false;
     }
 // ExesoDeVelocidad(88);
+// True
 ```
 ##Boolean
 
-Se utiliza al utilizar para referirnos entre "true" o "false".
+Los booleanos se utiliza con el fin de arrojar 2 tipos de resultados, estos nos referimos a `true` quiere decir de lo anterior es verdadero;  o `false` quiere decir de lo anterior es falso. 
 
 ```javascript
     var LA_ANTERIOR_FRASE_ES_FALSA = True;
